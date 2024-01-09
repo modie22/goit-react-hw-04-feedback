@@ -3,8 +3,8 @@ import {Notification} from './Notification/Notification';
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
-//import { useState } from 'react';
-/* 
+import { useState } from 'react';
+
 function App() {
 
   const [good,setGood]= useState(0);
@@ -62,9 +62,9 @@ function App() {
 export default App;
 
 
- */
+ 
 
-class App extends Component {
+/* class App extends Component {
   state = {
     good: 0,
     neutral: 0,
@@ -113,3 +113,4 @@ class App extends Component {
   }
 }
 export default App;
+ */
